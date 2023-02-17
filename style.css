@@ -1,0 +1,51 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: lightblue;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Body */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.item h2 {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: lightgray;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+}
